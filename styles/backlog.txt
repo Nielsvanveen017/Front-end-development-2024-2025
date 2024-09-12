@@ -1,0 +1,186 @@
+
+/**************/
+/* CSS REMEDY */
+
+/**************/
+/* Lettertypes importeren */
+/**************/
+
+/* Normaal 400 */
+@font-face {
+    font-family: 'Europa';
+    src: url('fonts/europa-regular.woff2') format('woff2'),
+         url('fonts/europa-regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Cursief 400 */
+@font-face {
+    font-family: 'Europa';
+    src: url('fonts/europa-italic.woff2') format('woff2'),
+         url('fonts/europa-italic.woff') format('woff');
+    font-weight: 400;
+    font-style: italic;
+}
+
+/* Vet 700 */
+@font-face {
+    font-family: 'Europa';
+    src: url('fonts/europa-bold.woff2') format('woff2'),
+         url('fonts/europa-bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* Vet cursief 700 */
+@font-face {
+    font-family: 'Europa';
+    src: url('fonts/europa-bolditalic.woff2') format('woff2'),
+         url('fonts/europa-bolditalic.woff') format('woff');
+    font-weight: 700;
+    font-style: italic;
+}
+
+*, *::after, *::before {
+  box-sizing:border-box;  
+  padding:0;
+  margin:0;
+}
+
+
+
+
+
+/*********************/
+/* CUSTOM PROPERTIES */
+/*********************/
+:root {
+	/* startje */
+	--color-text-dark:#fff;
+	--color-background-dark:#000000;
+}
+
+
+
+
+
+/****************/
+/* GENERAL STYLING */
+/****************/
+nav{
+    background-color: #000000;
+    height: 64px;
+}
+
+h1{
+    font-family: 'Europa', sans-serif;
+    font-size: 32px;
+}
+
+h2{
+    font-family: 'Europa', sans-serif;
+    font-size: 32px;   
+    margin: 32px 16px;
+    text-align: center;
+}
+
+h3{
+    font-family: 'Europa', sans-serif;
+    font-size: 20px;
+}
+p{
+    font-family: 'Europa', sans-serif;
+}
+
+a{
+    font-family: 'Europa', sans-serif; 
+}
+
+
+/****************/
+/* CSS SELECTOREN */
+/****************/
+main section:nth-of-type(1) img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Zorg ervoor dat de afbeelding goed past */
+    z-index: -1; /* Zet de afbeelding achter de tekst */
+}
+
+main section:nth-of-type(1) div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    position: relative; 
+    text-align: center; 
+    padding: 16px;
+    color: var(--color-text-dark);
+}
+
+main section:nth-of-type(1) div p{
+    margin: 8px 0 16px 0;
+}
+
+main section:nth-of-type(1) div a{
+    padding: 8px 16px;
+    border: 2px solid #ffff;
+    border-radius: 100px;
+    font-size: 12px;
+    color: var(--color-text-dark)
+}
+
+main section:nth-of-type(1){
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main ul{
+    list-style-type: none;
+    margin: 32px 16px;
+    background-color: var(--color-background-dark);
+    color: var(--color-text-dark);
+    border-radius: 12px;
+}
+
+main ul img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+main ul div {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+}
+
+main ul div h3{ 
+    margin: 5px 0 12px 0;
+}
+
+main ul div p{
+    font-size: 12px;
+}
+
+main ul div a{
+    display: inline-block;
+    font-size: 12px;
+    padding: 8px 16px;
+    border-radius: 100px;
+    border:solid #fff;
+}
+
+.grote-knop{
+    width: 100%;
+    padding: 16px 8px;
+    border: solid #000000;
+    border-radius: 100px    ;
+}
