@@ -69,8 +69,8 @@
 /****************/
 /* GENERAL STYLING */
 /****************/
-main{
-    margin-bottom: 128px;
+body{
+    margin-bottom: 32px;
 }
 nav{
     background-color: #000000;
@@ -114,7 +114,6 @@ h1{
 h2{
     font-family: 'Europa', sans-serif;
     font-size: 32px;   
-    margin: 32px 16px;
     text-align: center;
     color: var(--dark-color-text);
 }
@@ -132,7 +131,46 @@ a{
     font-family: 'Europa', sans-serif; 
 }
 
+article h2{
+    margin: 32px 16px;
+}
 
+footer{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 64px 20px 0px;
+}
+footer section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+footer section img{
+    width: 100px;
+}
+footer ul{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Europa', sans-serif; 
+    list-style-type: none;
+    padding: 16px;
+    color: var(--color-text-dark);
+}
+
+footer ul li{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 0 12px 0;
+    border-top: .5px solid rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+}
+footer ul img{
+    height:12px;
+    width: 12px;;
+}
 /****************/
 /* CSS SELECTOREN */
 /****************/
@@ -192,7 +230,7 @@ a{
     border: solid 1px;
     text-align: center;
     color: var(--dark-color-text);
-
+    text-decoration: none;
 }
 
 
@@ -202,7 +240,7 @@ body{
 }
 
 article {
-    margin: 4em 1em 0 1em;
+    padding: 4em 1em 4em 1em;
     display: flex;
     flex-direction: column;
     gap: 24px;
