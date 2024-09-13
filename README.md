@@ -135,25 +135,53 @@ Daarnaast sprak ook een blinde man over de toegankelijkheid van websites voor he
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  
+  Tijdens de eerste week heb ik niet zoveel gedaan. Ik moest vooral inkomen en wennen dat school weer was begonnen. Ook kon ik vrijdag niet bij de les zijn in verband met een begrafenis. Hierdoor moest ik in week 2 wat meer werk doen. In week 1 was ik wel begonnen met code schrijven voor m'n website.
+
+  Ik liep in week 1 echter vast. Dit kwam doordat ik geen classes wilde gebruiken, omdat dacht dat dit niet mocht. Ik heb in week 1 daarom m'n header gemaakt. Dit ging prima. Ik moest een paar dingen opzoeken, maar over het algemeen ging het prima.
+
+  In week 2 liep ik echter vast door het gemaakte werk uit week 1. Ik had m'n header staan in html en de bijbehorende css er ook bij geschreven. Op dit punt liep ik vast. Ik had m'n css voor m'n header dusdanig geschreven dat ik vaak de eerste section van een article aanriep. Dit ging echter fout toen ik in week 2 nog een section toevoegde: hierop was automatisch ook de css van de hero op toegepast. Ik raakte hierdoor een beetje van slag en dacht dat ik m'n website niet af zou krijgen.
+
+  Ik besloot daarom op donderdag 12 september m'n huidige css te kopieren en in een backlog.css bestand te zetten. Verder verwijderd ik m'n geschreven html. Ook maakte ik een nieuwe pagina aan: Calendar. Dit is m'n tweede pagina. Ik besloot toen om deze te gaan maken. Ook besloot ik om met classes te gaan werken waar dat nodig was. Dit ging uiteindelijk veel beter. Ik kon nu m'n website veel beter na maken. Nadat ik m'n calendar website had afgemaakt besloot ik om weer verder te gaan met m'n index.html. Dit ging ook erg goed. Ik kon een groot stuk uit m'n calendar hergebruiken. Ook kon ik nu m'n oude code van de hero section hergebruiken en aanpassen waar nodig was. 
+
+  Uiteindelijk had ik 1 volledige pagina af, met zowel html als css. Ook was ik al goed op weg met de index.html. Het belangrijkste dat ik deze week heb geleerd is het gebruiken van classes. Hier zat ik namelijk wel een beetje mee aan het begin. Ik ben er nu echter achtergekomen dat het gebruik van classes wel is toegestaand. Ook ben ik erachter gekomen dat je binnen een class ook semantisch kunt werken door pseudo elementen en css selectoren te gebruiken. Ik ben daarom zeer tevreden met het verloop van de afgelopen twee weken en voornamelijk de tweede week. 
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
+  | Dok      | student 2          | student 3    | student 4        |
   | ---            | ---                | ---          | ---              |
   | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
   | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
   | ...            | ...                | ...          | ...              |
 
+  - Dok wilde graag een vraag stellen over het stijlen van een specifiek woord in z'n footer. Dit woord had een ander lettertype dan de rest
+  - ... wilde een vraag stellen over het opmaken van een zoekbalk en hoe je dit semantisch kon doen
+  - Ik zelf wilde graag een vraag stellen over het gebruiken van een ul in plaats van een section
+
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Met een span kun je een specifiek inline gedeelte aanpasssen en stijlen. Een Div werkt voor het stijlen en aanpassen van blokken. 
+  - First child is niet handig, omdat er vaak elementen worden bijgebouwd. First child werkt wel voor een site die nooit meer gaat      veranderen,  maar dit komt nauwelijks voor
+  - Het gebruik van classes is toegstaan, zolang er geen semantische oplossing is. Bijvoorbeeld door het gebruiken van pseudo elementen
+  - Je kunt ook slimme selectoren in een class gebruiken. Bijvoorbeeld .voorbeeld p, dan selecteer je de p in de class voorbeeld
+  - Div class is nav heeft geen zin, omdat je een nav tag hebt. Hier heb je dus een goed alternatief dus een div met class is dan onnodig en eigenlijk fout
+  - Een section is iets wat logisch bij elkaar hoort
+  - Het is niet toegestaan om een BR tag te gebruiken
+  - Vormgeving uitdagingen wil je niet oplossen door het gebruik van HTML, waardoor een BR tag niet toegestaan is
+  - Het is handiger om een section te gebruiken dan een ul en li die ik heb gebruikt (vraag die ik had voorbereid)
+  - Je mag geen div gebruiken waar 1 item in zit. Dan moet de div weg want dan is ie overbodig
+  - Het is handig om je website door een validator te halen, bijvoorbeeld op w3c
+  - De oefening over het hamburger menu is handig om te doen wanneer je een hamburger menu hebt
+  - Elke secton heeft een h2 (sterk aanbevolen)
+  - Als er geen h2 in een section zit, kan je beter de vraag stellen of het wel een section is
+  - Je moet een section als een inhoudsopgave zien, deze heeft altijd een duidelijke titel nodig
+  - De hierarchie van je heading moet kloppen, dus als er een h3 boven een section staat dan mag je een h4 gebruiken
+  - Bij de toegankelijkheidstest moet je gewoon de hele checklist afgaan en deze verwerken in het procesverslag
+  - Het is niet verplicht om de website responsive maken wanneer je kiest voor surface plane (voor een hoger cijfer kan dit wel)
 
 </details>
 
