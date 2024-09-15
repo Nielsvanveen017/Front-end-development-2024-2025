@@ -265,11 +265,11 @@ article h1{
     border-radius: 1em 1em 0 0 ;
 }
 
-.event-card ul{
+.event-card section{
     margin: -60px 24px 24px 24px;
 }
 
-.event-card ul h3{
+.event-card section h3{
     margin: 5px 0 12px 0;
     font-size: 20px;
     letter-spacing: .08rem;
@@ -294,14 +294,14 @@ article h1{
     background-color: #ffffff;
 }
 
-.event-card li:last-child{
+.event-card div:last-child{
     display: flex;
     margin-top: 16px;
     gap:12px;
 }
 
 
-.event-card li:last-child a{
+.event-card div:last-child a{
     padding: 6px 16px;
     border-radius: 100px;
     border: solid 1px;
